@@ -1,5 +1,5 @@
-let money = prompt("Ваш бюджет на месяц?", ''),
-	time = prompt('Введите дату в формате YYYY-MM-DD', '');
+let money = prompt("20000", ''),
+	time = prompt('2020-03-01', '');
 
 let appData = {
 	budget: money,
@@ -10,10 +10,10 @@ let appData = {
 	savings: false
 };
 
-let a1 = prompt("Введите обязательную статью расходов в этом месяце", ''),
-	a2 = prompt("Во сколько обойдется?", ''),
-	a3 = prompt("Введите обязательную статью расходов в этом месяце", ''),
-	a4 = prompt("Во сколько обойдется?", '');
+let a1 = prompt("Room", ''),
+	a2 = prompt("10000", ''),
+	a3 = prompt("Eting", ''),
+	a4 = prompt("5000", '');
 
 appData.expenses[a1] = a2;
 appData.expenses[a3] = a4;
